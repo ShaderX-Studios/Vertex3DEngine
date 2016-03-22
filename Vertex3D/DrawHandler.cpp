@@ -13,9 +13,9 @@ void drawHandle(HDC hDC){
 
 
 ifstream backgroundColor;
-backgroundColor.open("C:/Users/radio/Documents/Vertex3D/Vertex3DModels/Engine/SkyboxColor.enginesys");
+backgroundColor.open("C:/Program Files/Vertex3DModels/Engine/SkyboxColor.enginesys");
 ofstream bakcahce;
-bakcahce.open("C:/Users/radio/Documents/Vertex3D/Vertex3DModels/Engine/SkyboxCache.scdf");
+bakcahce.open("C:/Program Files/Vertex3DModels/Vertex3DModels/Engine/SkyboxCache.scdf");
 
     float r;
     float g;

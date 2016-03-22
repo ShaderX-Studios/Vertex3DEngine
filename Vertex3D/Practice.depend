@@ -78,3 +78,41 @@
 	<fstream>
 	<iostream>
 
+1446059829 source:c:\users\radio\documents\vertex3d\disable.cpp
+	<windows.h>
+	<gl/gl.h>
+
+1458445004 source:c:\users\radio\documents\vertex3d\drawcube.cpp
+	<gl/gl.h>
+
+1458445982 source:c:\users\radio\documents\vertex3d\drawplane.cpp
+	<gl/gl.h>
+
+1446062872 source:c:\users\radio\documents\vertex3d\drawsquare.cpp
+	<gl/gl.h>
+
+1446062872 source:c:\users\radio\documents\vertex3d\drawtriangle.cpp
+	<gl/gl.h>
+
+1446062509 source:c:\users\radio\documents\vertex3d\enable.cpp
+	<windows.h>
+	<gl/gl.h>
+
+1458522728 source:c:\users\radio\documents\vertex3d\main.cpp
+	<windows.h>
+	<gl/gl.h>
+	"Enable.h"
+	"Draw.h"
+	"Disable.h"
+
+1446057012 c:\users\radio\documents\vertex3d\enable.h
+	<windows.h>
+	<gl/gl.h>
+
+1458691962 c:\users\radio\documents\vertex3d\draw.h
+	<windows.h>
+
+1446059875 c:\users\radio\documents\vertex3d\disable.h
+	<windows.h>
+	<gl/gl.h>
+

@@ -5,7 +5,6 @@
 
 void drawHandle(HDC hDC);
 void DrawAll();
-void DrawTerrain();
 void DrawTriangle();
 void DrawSquare();
 void DrawCube();

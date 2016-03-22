@@ -13,7 +13,7 @@ void DrawVBOObject(){
     float vptr;
 
 ifstream matColor;
-matColor.open("C:/Users/radio/Documents/Vertex3D/Vertex3DModels/Engine/matColor.enginesys");
+matColor.open("C:/Program Files/Vertex3DModels/Engine/matColor.enginesys");
 
     glBegin(GL_QUADS);
     float r;
@@ -37,10 +37,10 @@ while(matColor >> r >> g >> b){
 
 
     ifstream VBO;
-    VBO.open("C:/Users/radio/Documents/RealistaEngine/Practice/Vertex3DModels/Sphere.sxm");
+    VBO.open("C:/Program Files/Vertex3DModels/Sphere.sxm");
 
     ofstream vertexOutput;
-vertexOutput.open("C:/Users/radio/Documents/RealistaEngine/Practice/Vertex3DModels/vertexCache.scdf");
+vertexOutput.open("C:/Program Files/Vertex3DModels/Cache/vertexCache.scdf");
 
    while(VBO >> datType >> vpo >> vpt >> vptr) {
 

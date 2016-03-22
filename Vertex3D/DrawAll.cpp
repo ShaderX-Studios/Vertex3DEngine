@@ -3,7 +3,7 @@
 #include "Draw.h"
 
 void DrawAll(){
- //DrawTerrain();
+
  DrawTriangle();
  DrawSquare();
  DrawCube();
