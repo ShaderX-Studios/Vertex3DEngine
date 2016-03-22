@@ -8,7 +8,7 @@ void DrawAll(){
  DrawSquare();
  DrawCube();
  DrawPlane();
- //DrawVBOObject();
+ DrawVBOObject();
 }
 
 
