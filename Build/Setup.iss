@@ -2,16 +2,16 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "Vertex3D"
-#define MyAppVersion "1.0"
+#define MyAppVersion "0"
 #define MyAppPublisher "VexWare Technologies Inc."
 #define MyAppURL "http://www.vexwaretech.weebly.com/"
-#define MyAppExeName "Practice.exe"
+#define MyAppExeName "Vertex3D.exe"
 
 [Setup]
 ; NOTE: The value of AppId uniquely identifies this application.
 ; Do not use the same AppId value in installers for other applications.
 ; (To generate a new GUID, click Tools | Generate GUID inside the IDE.)
-AppId={{6FD34998-F2E0-4C85-8687-91D40354FB94}
+AppId={{0FC1B8C8-4CC8-47B4-AC72-C2C0FD51173A}
 AppName={#MyAppName}
 AppVersion={#MyAppVersion}
 ;AppVerName={#MyAppName} {#MyAppVersion}
@@ -19,13 +19,16 @@ AppPublisher={#MyAppPublisher}
 AppPublisherURL={#MyAppURL}
 AppSupportURL={#MyAppURL}
 AppUpdatesURL={#MyAppURL}
-DefaultDirName={pf}\{#MyAppName}
+DefaultDirName=C://Program Files\{#MyAppName}
+DisableDirPage=yes
 DefaultGroupName={#MyAppName}
 AllowNoIcons=yes
-InfoBeforeFile=C:\Users\catch_000\Desktop\BeforeInstall.rtf
-InfoAfterFile=C:\Users\catch_000\Desktop\AfterInstall.rtf
-OutputBaseFilename=setup
-SetupIconFile=C:\Users\catch_000\Documents\GitHub\Vertex3DEngine\vertex3d.ico
+LicenseFile=C:\Users\catch_000\Documents\GitHub\Vertex3DEngine\Vertex3D Engine\New Text Document.txt
+InfoBeforeFile=C:\Users\catch_000\Documents\GitHub\Vertex3DEngine\Vertex3D Engine\BeforeInstall.rtf
+InfoAfterFile=C:\Users\catch_000\Documents\GitHub\Vertex3DEngine\Vertex3D Engine\AfterInstall.rtf
+OutputDir=C:\Users\catch_000\Documents\GitHub\Vertex3DEngine\Build
+OutputBaseFilename=vertex3dsetup
+SetupIconFile=C:\Users\catch_000\Documents\GitHub\Vertex3DEngine\Vertex3D Engine\vertex3d.ico
 Compression=lzma
 SolidCompression=yes
 
@@ -37,8 +40,8 @@ Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{
 Name: "quicklaunchicon"; Description: "{cm:CreateQuickLaunchIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked; OnlyBelowVersion: 0,6.1
 
 [Files]
-Source: "C:\Users\catch_000\Desktop\Game Development\Vertex3D Engine\Vertex3D\bin\Debug\Practice.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\catch_000\Desktop\Game Development\Vertex3D Engine\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "C:\Users\catch_000\Documents\GitHub\Vertex3DEngine\Vertex3D Engine\Vertex3D\bin\Debug\Practice.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\catch_000\Documents\GitHub\Vertex3DEngine\Vertex3D Engine\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]
