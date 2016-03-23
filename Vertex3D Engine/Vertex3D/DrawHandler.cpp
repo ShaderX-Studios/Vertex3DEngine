@@ -27,13 +27,21 @@ while(backgroundColor >> r >> g >> b >> a){
     bakcahce << r << " " << g << " " << b << " " << a << endl;
 
 }
-     bakcahce.close();
+            bakcahce.close();
             backgroundColor.close();
 
             glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+            float spx;
+            float spy;
+            float spz;
 
+            ifstream rotation;
+            rotation.open("C:/Program Files/Vertex3DModels/Vertex3D/Vertex3DModels/Engine/RotateSpeed.ENGINESYS");
+            while(rotation >> spx >> spy >> spz){
             glPushMatrix();
-            glRotatef(theta, 0.0f, 0.5f, 0.0f);
+            glRotatef(theta, spx, spy, spz);
+
+            }
 
             DrawAll();
 
