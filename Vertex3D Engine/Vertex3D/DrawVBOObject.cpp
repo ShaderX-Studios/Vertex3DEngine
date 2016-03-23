@@ -21,7 +21,7 @@ matColor.open("C:/Program Files/Vertex3D/Vertex3DModels/Engine/matColor.enginesy
     float b;
 while(matColor >> r >> g >> b){
        // if(datType == "rgb"){
-            glColor3f(vpo, vpt, vptr);
+            glColor3f(r, g, b);
       //  }
        // else if(datType == "n"){
    //glColor3f(r, g, b);
