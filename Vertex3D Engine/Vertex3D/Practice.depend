@@ -129,3 +129,64 @@
 	<fstream>
 	<iostream>
 
+1458758734 source:c:\users\radio\documents\github\vertex3dengine\vertex3d engine\vertex3d\disable.cpp
+	<windows.h>
+	<gl/gl.h>
+
+1458758735 source:c:\users\radio\documents\github\vertex3dengine\vertex3d engine\vertex3d\drawall.cpp
+	<gl/gl.h>
+	"Draw.h"
+
+1458758735 c:\users\radio\documents\github\vertex3dengine\vertex3d engine\vertex3d\draw.h
+	<windows.h>
+
+1458758735 source:c:\users\radio\documents\github\vertex3dengine\vertex3d engine\vertex3d\drawcube.cpp
+	<gl/gl.h>
+
+1458758735 source:c:\users\radio\documents\github\vertex3dengine\vertex3d engine\vertex3d\drawplane.cpp
+	<gl/gl.h>
+
+1458758735 source:c:\users\radio\documents\github\vertex3dengine\vertex3d engine\vertex3d\drawsquare.cpp
+	<gl/gl.h>
+
+1458758735 source:c:\users\radio\documents\github\vertex3dengine\vertex3d engine\vertex3d\drawterrain.cpp
+	<gl/gl.h>
+	<windows.h>
+	<fstream>
+	<iostream>
+
+1458758735 source:c:\users\radio\documents\github\vertex3dengine\vertex3d engine\vertex3d\drawtriangle.cpp
+	<gl/gl.h>
+
+1458758735 source:c:\users\radio\documents\github\vertex3dengine\vertex3d engine\vertex3d\enable.cpp
+	<windows.h>
+	<gl/gl.h>
+
+1458758736 source:c:\users\radio\documents\github\vertex3dengine\vertex3d engine\vertex3d\main.cpp
+	<windows.h>
+	<gl/gl.h>
+	"Enable.h"
+	"Draw.h"
+	"Disable.h"
+
+1458758735 c:\users\radio\documents\github\vertex3dengine\vertex3d engine\vertex3d\enable.h
+	<windows.h>
+	<gl/gl.h>
+
+1458758735 c:\users\radio\documents\github\vertex3dengine\vertex3d engine\vertex3d\disable.h
+	<windows.h>
+	<gl/gl.h>
+
+1458759234 source:c:\users\radio\documents\github\vertex3dengine\vertex3d engine\vertex3d\drawhandler.cpp
+	<windows.h>
+	<gl/gl.h>
+	<fstream>
+	<iostream>
+	"Draw.h"
+
+1458759217 source:c:\users\radio\documents\github\vertex3dengine\vertex3d engine\vertex3d\drawvboobject.cpp
+	<gl/gl.h>
+	<windows.h>
+	<fstream>
+	<iostream>
+
