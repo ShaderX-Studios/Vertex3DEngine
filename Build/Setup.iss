@@ -5,7 +5,7 @@
 #define MyAppVersion "0"
 #define MyAppPublisher "VexWare Technologies Inc."
 #define MyAppURL "http://www.vexwaretech.weebly.com/"
-#define MyAppExeName "Vertex3D.exe"
+#define MyAppExeName "Practice.exe"
 
 [Setup]
 ; NOTE: The value of AppId uniquely identifies this application.
