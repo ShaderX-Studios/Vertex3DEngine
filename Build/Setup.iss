@@ -41,7 +41,7 @@ Name: "quicklaunchicon"; Description: "{cm:CreateQuickLaunchIcon}"; GroupDescrip
 
 [Files]
 Source: "C:\Users\catch_000\Documents\GitHub\Vertex3DEngine\Vertex3D Engine\Vertex3D\bin\Debug\Practice.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\catch_000\Documents\GitHub\Vertex3DEngine\Vertex3D Engine*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "C:\Users\catch_000\Documents\GitHub\Vertex3DEngine\Vertex3D Engine\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]
